@@ -3,7 +3,7 @@ body {
   margin:0px 0px; 
   padding:0px;
   text-align:center;
-  background: #DCDDDF;
+  background: #fff; /*#DCDDDF;*/
 }
 
 #page {
@@ -28,7 +28,7 @@ body {
 }
 
 #footercontainer {
-  border-top: 1px solid #DDDDDD;
+
   color: #888888;
   font-size: 10px;
 }
