@@ -32,7 +32,7 @@ Most of the website will be fairly static (changing maybe once a week to once a 
 *   [BlueprintCSS](http://www.blueprintcss.org/)
 *   [jQuery](http://jquery.com/)
 *   [jqModal](http://dev.iceburg.net/jquery/jqModal/)
-*   [Hakyll](http://jaspervdj.be/hakyll/tutorials/part01.html) and [jaspervdj's hakyll site open-source code](https://github.com/jaspervdj/jaspervdj)
+*   [Hakyll](http://jaspervdj.be/hakyll/tutorials/part01.html) and [jaspervdj's site](https://github.com/jaspervdj/jaspervdj)
 
 ### To Build and Preview:
 
