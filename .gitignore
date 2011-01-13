@@ -1,0 +1,4 @@
+*.o
+hakyll
+hakyll.hi
+_cache/
