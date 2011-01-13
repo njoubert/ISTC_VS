@@ -4,10 +4,24 @@ This is the website for the Intel Science and Technology Center for Visual Compu
 
 ## Website Contents
 
-The website consists of a public-facing side that presents the *intent, progress and outcome* of the center.
+The website consists of a public-facing side that presents the **intent, progress and outcome** of the center.
 
-- Main page: overview of center, research in progress and research results, reports
-- 
+*   **Main page** - overview of center, research in progress and research results, reports
+*   **Overall vision and progress** - steering committee info and quarterly reports
+*   **Themes and Projects** - overall categories and projects in each category. will be cross-referenced with people. Each theme should have a centrally maintained page, each project should have a project page that is easily updated by admin people associated with projects. Cross-referenced with publications and talks.
+*   **People** - will be cross-referenced with projects.
+*   **Publications and Talks** - as research results are produced. must be easy to update and maintain, each paper and talk should have its own page mostly autogenned.
 
-It's written in Haskell using the very neat Hakyll static site generator.
+The website should also have a functional side for tying together research activities:
 
+**Anything that supports collaboration is good!**
+
+*   Repository information for collaborators
+*   Calendar editable by admins
+*   Repositories for code/papers/ideas shared amongst researchers
+*   Activities pages for official get-togethers, meetings, etc.
+*   Talk details
+
+## Website Architecture
+
+Most of the website will be fairly static (changing maybe once a week to once a month). Rather than deal with a fully dynamic site, the main site is written in Haskell using the Hakyll static site generator. Internal pages that require dynamic stuff can be handled by a dynamic system of our choice, possibly multiple. If static sites become too difficult, it's easy enough to turn a Hakyll site into a Rails/Django/Play/Lift site.
