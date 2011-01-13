@@ -1,29 +1,62 @@
+/* PAGE CENTERING AND PADDING */
 body {
-	margin: 0 auto 0 1.5em;
-	padding: 1.3em 1.5em 1em 1.5em
+  margin:0px 0px; 
+  padding:0px;
+  text-align:center;
+  background: #DCDDDF;
 }
+
+#page {
+  width: 950px;
+  margin: 0px auto;
+  
+  text-align:left;
+  
+}
+
+#shadowcontainer {
+  width: 994px;
+  margin: 0 auto;
+  background: url("/images/sideshadow.png") repeat-y scroll 0 0 transparent;
+}
+
+#bodycontainer {
+  padding: 18px 17px 12px; /* top, sides, bottom */
+  width: 950px;  
+  margin: 0 auto;
+  background: #FFFFFF;
+}
+
+#footercontainer {
+  border-top: 1px solid #DDDDDD;
+  color: #888888;
+  font-size: 10px;
+}
+
 h1, h2, h3, h4, h5, h6 {font-weight:bold;color:#111;}
 
-#header {
+
+/* MASTHEAD, including NAME and TOP-LEVEL NAVIGATION */
+
+#masthead {
 	margin: 4px 0px 6px;
 	position: relative;
 	font-size: 14px;
 	font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;
 	font-weight: bold;
 }
-#header .container {
+#masthead .container {
 	border-bottom: 1px solid #DDDDDD;
 }
-.bottomborder {
-	border-bottom: 1px solid #DDDDDD;	
-}
-
-
-#header  a {
+#masthead  a {
 	text-decoration: none;
 	margin-right: 12px;
 	font-size: 14px;
 	font-weight: normal;	
+}
+
+.bottomborder {
+	border-bottom: 1px solid #DDDDDD;	
 }
 
 .paper {

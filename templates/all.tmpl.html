@@ -5,8 +5,6 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>$title - ICTC Visual Computing </title>
-    <link rel="stylesheet" type="text/css" href="$root/css/default.css" />
-    <link rel="stylesheet" type="text/css" href="$root/css/syntax.css" />
     
     <link rel="stylesheet" href="$root/css/blueprint/screen.css" type="text/css" media="screen, projection">
     <link rel="stylesheet" href="$root/css/blueprint/print.css" type="text/css" media="print"> 
@@ -21,7 +19,14 @@
 </head>
 <body>
 <div id="page">
-$body
+    <div id="shadowcontainer">
+        <div id="bodycontainer">
+        $body
+        </div>
+    </div>
+    <div id="footercontainer">
+        Hello
+    </div>
 </div>    
 </body>
 <script type="text/javascript">

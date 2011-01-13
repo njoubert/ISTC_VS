@@ -33,14 +33,15 @@ Most of the website will be fairly static (changing maybe once a week to once a 
 *   [jQuery](http://jquery.com/)
 *   [jqModal](http://dev.iceburg.net/jquery/jqModal/)
 *   [Hakyll](http://jaspervdj.be/hakyll/tutorials/part01.html) and [jaspervdj's site](https://github.com/jaspervdj/jaspervdj)
+*   [Google Analytics](http://www.google.com/analytics/)
 
 ### To Build and Preview:
 
-Once Off:
+Once Off, to install Hakyll (assuming you have Haskell):
 > cabal install hakyll
 
 Needed when file structure changes:
 > ghc --make hakyll.hs
 
-Will recompile changed files without restarting server:
+Will recompile changed files without having to restart server:
 > ./hakyll preview
