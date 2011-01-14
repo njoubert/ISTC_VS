@@ -24,11 +24,14 @@ main = hakyll "http://visual.stanford.edu/" $ do
     directory static "publications"
     directory css "css"
     
-    render "index.html"
-    render "people.html"
-    render "projects.html"
-    render "publications.html"
+    renderMain "index.html"
+    renderNormal "people.html"
+    renderNormal "themes.html"
+    renderNormal "publications.html"
     
   where
-    render = renderChain ["templates/default.tmpl.html", "templates/all.tmpl.html"]
+    renderNormal = renderChain ["templates/default.tmpl.html", "templates/all.tmpl.html"]
            . createPage
+    renderMain = renderChain ["templates/mainpagetitle.tmpl.html", "templates/all.tmpl.html"]
+       . createPage
+
