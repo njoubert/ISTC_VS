@@ -14,9 +14,24 @@
     <link rel="stylesheet" href="./css/site.css" type="text/css" media="screen, projection">    
     
     
-    <!-- <script type="text/javascript" src="./js/jquery-1.4.4.min.js"></script>
+    <script type="text/javascript" src="./js/jquery-1.4.4.min.js"></script>
     <script type="text/javascript" src="./js/jqModal.js"></script> 
-    <link rel="stylesheet" href="./css/jqModal.css" type="text/css" media="screen, projection"> -->
+    <link rel="stylesheet" href="./css/jqModal.css" type="text/css" media="screen, projection">
+
+<script language="javascript">
+$(document).ready(function () {
+      $("p").text("The DOM is now loaded and can be manipulated.");
+});
+
+function toggleSignIn() {
+    if ($('#signin').html() == "Sign In") {
+        $('#signin').html("Sign Out");
+    } else {
+        $('#signin').html("Sign In");
+    }
+    $('#authed_links').toggle();
+}
+</script>
 
 </head>
 <body>
@@ -25,7 +40,7 @@
         <div id="bodycontainer" class="clearfix">
           <div id="header" class="clearfix">
               <div id="header_links">
-                  <a href="#">Sign In</a>
+                  <a href="javascript:toggleSignIn();" id="signin">Sign In</a>
               </div>
           </div>
           <div id="masthead" class="clearfix">
@@ -36,13 +51,18 @@
               <a href=".">THE VISUAL COMPUTING CENTER</a>
             </div>
           </div>
-          <div id="mastnav" class="clearfix">
+          <div class="mastnav clearfix">
             <a href="./index.html">HOME</a>
             <a href="./overview.html">OVERVIEW</a>
-            <a href="./events.html">EVENTS</a>
             <a href="./publications.html">PUBLICATIONS</a>
             <a href="./themes.html">PROJECT THEMES</a>
             <a href="./people.html">PEOPLE</a>
+          </div>
+          <div id="authed_links" class="mastnav clearfix">
+            <a href="./events.html">CALENDAR</a>
+            <a href="./events.html">RESUMES</a>
+            <a href="./events.html">CODE</a>
+            <a href="./events.html">REPOSITORY</a>
           </div>
         <div id="pagetitle" class="clearfix">
 <div id="pagetitlepadding">
