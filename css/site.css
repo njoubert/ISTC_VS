@@ -3,7 +3,7 @@ body {
   margin:0px 0px; 
   padding:0px;
   text-align:center;
-  background: #3EB0ED;
+  background: #595E66;
   font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;
 }
 
@@ -30,7 +30,7 @@ body {
   height: 39px;
   color: #777;
   width: 100%;
-  background: #3EB0ED url("/images/bottomshadow1.png") repeat-x scroll 0 0;
+  background: #595E66 url("/images/bottomshadow1.png") repeat-x scroll 0 0;
 }
 
 #footer {
@@ -38,7 +38,7 @@ body {
   margin: 0 auto;
   padding-left: 17px;
   padding-top: 12px;
-  background: #3EB0ED url("/images/bottomshadow1.png") repeat-x scroll 0 0;
+  background:  url("/images/bottomshadow1.png") repeat-x scroll 0 0;
 
 }
 
