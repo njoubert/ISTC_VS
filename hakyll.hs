@@ -28,7 +28,8 @@ main = hakyll "http://visual.stanford.edu/" $ do
     renderNormal "people.html"
     renderNormal "themes.html"
     renderNormal "publications.html"
-    
+    renderNormal "events.html"
+    renderNormal "overview.html"
   where
     renderNormal = renderChain ["templates/default.tmpl.html", "templates/all.tmpl.html"]
            . createPage

@@ -37,7 +37,7 @@ a:hover {
 }
 
 #bodycontainer {
-  padding: 28px 0px 0px; /* top, sides, bottom */
+  padding: 0px 0px 0px; /* top, sides, bottom */
   width: 984px;  
   margin: 0 auto;
   background: #FFFFFF;
@@ -68,7 +68,17 @@ a:hover {
 }
 
 /* MASTHEAD, including NAME and TOP-LEVEL NAVIGATION */
-
+#header {
+  height: 28px;
+}
+#header_links {
+  float: right;
+  padding: 0px 18px 0px 0px;
+}
+#header_links a {
+  text-decoration:none;
+  font-weight: bold;
+}
 #masthead {
 	width:950px;margin: 4px 17px 6px;position: relative;
 }
@@ -252,4 +262,11 @@ h1, h2, h3, h4, h5, h6 {font-weight:bold;color:#111;}
 	font-size: 1.4em;
 }
 
+.bright {
+  color:#ED5832;
+}
+
+ul h4 {
+  margin-bottom: 0px;
+}
 
