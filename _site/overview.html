@@ -19,10 +19,6 @@
     <link rel="stylesheet" href="./css/jqModal.css" type="text/css" media="screen, projection">
 
 <script language="javascript">
-$(document).ready(function () {
-      $("p").text("The DOM is now loaded and can be manipulated.");
-});
-
 function toggleSignIn() {
     if ($('#signin').html() == "Sign In") {
         $('#signin').html("Sign Out");
@@ -40,7 +36,7 @@ function toggleSignIn() {
         <div id="bodycontainer" class="clearfix">
           <div id="header" class="clearfix">
               <div id="header_links">
-                  <a href="javascript:toggleSignIn();" id="signin">Sign In</a>
+                  
               </div>
           </div>
           <div id="masthead" class="clearfix">
@@ -48,21 +44,16 @@ function toggleSignIn() {
                 <a href="http://techresearch.intel.com/index.aspx">AN INTEL SCIENCE AND TECHNOLOGY CENTER</a>
             </div>
             <div id="masttitle">
-              <a href=".">THE VISUAL COMPUTING CENTER</a>
+              <a href=".">THE CENTER FOR VISUAL COMPUTING</a>
             </div>
           </div>
           <div class="mastnav clearfix">
             <a href="./index.html">HOME</a>
             <a href="./overview.html">OVERVIEW</a>
-            <a href="./publications.html">PUBLICATIONS</a>
-            <a href="./themes.html">PROJECT THEMES</a>
-            <a href="./people.html">PEOPLE</a>
+            <a href="./themes.html">RESEARCH THEMES</a>
           </div>
           <div id="authed_links" class="mastnav clearfix">
-            <a href="./events.html">CALENDAR</a>
-            <a href="./events.html">RESUMES</a>
-            <a href="./events.html">CODE</a>
-            <a href="./events.html">REPOSITORY</a>
+
           </div>
         <div id="pagetitle" class="clearfix">
 <div id="pagetitlepadding">
@@ -74,31 +65,36 @@ function toggleSignIn() {
 
     <div id="overview_content" class="onetwocol">
         
-        <h3>STEERING COMMITTEE</h3>
-        Message From<br/>
-        Responsible For<br/>
-        These People<br/>
-        <br/>
+        <div class="section">
         
-        <h3>QUARTERLY REPORTS</h3>
+            <h3>STEERING COMMITTEE</h3>
+            Message From<br/>
+            Responsible For<br/>
+            These People<br/>
         
-        <h4>2010 Q1</h4>
-        <p><a href="#">PDF here</a></p>
-        <p>In hendrerit, nunc tempor consectetur tempor, mauris nulla dictum dui, eu lacinia turpis lorem ut enim. Praesent euismod tortor a erat varius a eleifend ipsum condimentum. Fusce sollicitudin scelerisque nibh ac placerat. Nunc ultricies suscipit elit, a rhoncus nisl fermentum quis. Mauris placerat volutpat nisi, id ullamcorper velit mattis ut. Aliquam erat volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed eleifend auctor odio, eu tincidunt nunc imperdiet quis. Vivamus tempor eros id arcu laoreet non volutpat metus posuere. Cras sit amet leo augue, quis adipiscing leo. Quisque vel tellus felis, ut pretium leo. Curabitur adipiscing pretium ultrices. Maecenas mi quam, elementum non ultricies mollis, tristique nec augue. Donec et erat orci. Nulla enim ante, placerat pellentesque volutpat sed, euismod vestibulum mi. Sed vitae libero tortor, sed pellentesque ante. Pellentesque quis imperdiet mi. Nullam porttitor elit vel mi tincidunt rutrum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+        </div>
+        
+        <div class="section">
+            <h3>QUARTERLY REPORTS</h3>
+        
+            <h4>2010 Q1</h4>
+            <p><a href="#">PDF here</a></p>
+            <p>In hendrerit, nunc tempor consectetur tempor, mauris nulla dictum dui, eu lacinia turpis lorem ut enim. Praesent euismod tortor a erat varius a eleifend ipsum condimentum. Fusce sollicitudin scelerisque nibh ac placerat. Nunc ultricies suscipit elit, a rhoncus nisl fermentum quis. Mauris placerat volutpat nisi, id ullamcorper velit mattis ut. Aliquam erat volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed eleifend auctor odio, eu tincidunt nunc imperdiet quis. Vivamus tempor eros id arcu laoreet non volutpat metus posuere. Cras sit amet leo augue, quis adipiscing leo. Quisque vel tellus felis, ut pretium leo. Curabitur adipiscing pretium ultrices. Maecenas mi quam, elementum non ultricies mollis, tristique nec augue. Donec et erat orci. Nulla enim ante, placerat pellentesque volutpat sed, euismod vestibulum mi. Sed vitae libero tortor, sed pellentesque ante. Pellentesque quis imperdiet mi. Nullam porttitor elit vel mi tincidunt rutrum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
 
-        <h4>2010 Q2</h4>
-        <p><a href="#">PDF here</a></p>
-        <p>Maecenas fringilla orci sit amet urna vulputate congue. Donec tristique porta risus, vitae tempor massa commodo eget. Cras sapien orci, pellentesque eu egestas eget, feugiat in orci. Fusce a odio quis orci pellentesque lacinia pretium eu arcu. Nunc eu diam vel enim placerat ornare. Maecenas nec lacus nibh, nec pellentesque orci. Donec volutpat tincidunt imperdiet. Vestibulum eleifend, dolor et euismod venenatis, quam augue malesuada ipsum, et iaculis lectus sapien porttitor risus. Maecenas convallis mauris eu lacus hendrerit tempus sed et velit. Morbi sed lectus sit amet turpis mattis elementum. Etiam vehicula vestibulum libero, vel convallis elit dictum eu. Donec diam quam, faucibus non pulvinar nec, consectetur id tortor. Donec dolor augue, tempor ut pretium eu, aliquam rutrum quam.  </p>
+            <h4>2010 Q2</h4>
+            <p><a href="#">PDF here</a></p>
+            <p>Maecenas fringilla orci sit amet urna vulputate congue. Donec tristique porta risus, vitae tempor massa commodo eget. Cras sapien orci, pellentesque eu egestas eget, feugiat in orci. Fusce a odio quis orci pellentesque lacinia pretium eu arcu. Nunc eu diam vel enim placerat ornare. Maecenas nec lacus nibh, nec pellentesque orci. Donec volutpat tincidunt imperdiet. Vestibulum eleifend, dolor et euismod venenatis, quam augue malesuada ipsum, et iaculis lectus sapien porttitor risus. Maecenas convallis mauris eu lacus hendrerit tempus sed et velit. Morbi sed lectus sit amet turpis mattis elementum. Etiam vehicula vestibulum libero, vel convallis elit dictum eu. Donec diam quam, faucibus non pulvinar nec, consectetur id tortor. Donec dolor augue, tempor ut pretium eu, aliquam rutrum quam.  </p>
 
-        <h4>2010 Q3</h4>
-        <p><a href="#">PDF here</a></p>
-        <p>Etiam condimentum elementum semper. Mauris augue risus, imperdiet a aliquet in, bibendum vel lacus. Nunc hendrerit placerat ultrices. Etiam a magna sapien. Cras faucibus volutpat augue at gravida. Phasellus consectetur venenatis porttitor. Pellentesque nec orci nulla, non vehicula mauris. Duis placerat semper quam vitae scelerisque. In auctor malesuada diam lobortis porttitor. Curabitur augue odio, congue nec sodales eu, auctor sed sapien. </p>
+            <h4>2010 Q3</h4>
+            <p><a href="#">PDF here</a></p>
+            <p>Etiam condimentum elementum semper. Mauris augue risus, imperdiet a aliquet in, bibendum vel lacus. Nunc hendrerit placerat ultrices. Etiam a magna sapien. Cras faucibus volutpat augue at gravida. Phasellus consectetur venenatis porttitor. Pellentesque nec orci nulla, non vehicula mauris. Duis placerat semper quam vitae scelerisque. In auctor malesuada diam lobortis porttitor. Curabitur augue odio, congue nec sodales eu, auctor sed sapien. </p>
 
-        <h4>2010 Q4</h4>
-        <p><a href="#">PDF here</a></p>
-        <p>Ut nibh ante, lacinia at auctor nec, mattis a velit. Nunc at posuere magna. Nulla vitae metus sapien. Nunc varius, risus in varius auctor, turpis lorem dapibus sapien, quis tempus magna libero vel urna. Vestibulum in euismod lectus. Sed ut orci in augue elementum tristique. Cras fermentum adipiscing interdum. Vestibulum eu justo non magna pellentesque blandit. Nunc non velit diam, quis feugiat justo. In a augue justo, sit amet pellentesque sapien. Integer pellentesque felis id magna varius ut venenatis purus mattis. Aenean fermentum sagittis vestibulum. Etiam consectetur consectetur condimentum. Donec vulputate velit in neque convallis vitae congue nisi condimentum. Mauris eu purus nunc. Etiam dictum tempor tristique.</p>
-        <p>Proin in felis vel enim auctor feugiat. Aliquam tempor lorem in mi dictum tempor in nec lorem. Vivamus quis bibendum elit. Sed vitae ullamcorper magna. Ut sed tellus ut purus bibendum auctor lobortis et urna. Vivamus vulputate turpis eget massa hendrerit at lobortis nisi luctus. Integer dignissim fermentum neque eu tristique. Etiam eleifend arcu at enim congue commodo. Mauris volutpat nisi sed magna molestie at dapibus metus aliquet. Sed ac lacus in risus consequat eleifend non egestas est. Maecenas ut tempor risus. Pellentesque ligula enim, rutrum quis scelerisque eu, varius quis metus. Proin vitae est nisl. Sed tincidunt turpis vel leo ornare sed semper lacus euismod. Nullam lectus odio, mollis id viverra eu, elementum in metus. Donec fringilla eros ligula, ac malesuada mauris. Ut congue dolor sit amet mauris euismod imperdiet. </p>
+            <h4>2010 Q4</h4>
+            <p><a href="#">PDF here</a></p>
+            <p>Ut nibh ante, lacinia at auctor nec, mattis a velit. Nunc at posuere magna. Nulla vitae metus sapien. Nunc varius, risus in varius auctor, turpis lorem dapibus sapien, quis tempus magna libero vel urna. Vestibulum in euismod lectus. Sed ut orci in augue elementum tristique. Cras fermentum adipiscing interdum. Vestibulum eu justo non magna pellentesque blandit. Nunc non velit diam, quis feugiat justo. In a augue justo, sit amet pellentesque sapien. Integer pellentesque felis id magna varius ut venenatis purus mattis. Aenean fermentum sagittis vestibulum. Etiam consectetur consectetur condimentum. Donec vulputate velit in neque convallis vitae congue nisi condimentum. Mauris eu purus nunc. Etiam dictum tempor tristique.</p>
+            <p>Proin in felis vel enim auctor feugiat. Aliquam tempor lorem in mi dictum tempor in nec lorem. Vivamus quis bibendum elit. Sed vitae ullamcorper magna. Ut sed tellus ut purus bibendum auctor lobortis et urna. Vivamus vulputate turpis eget massa hendrerit at lobortis nisi luctus. Integer dignissim fermentum neque eu tristique. Etiam eleifend arcu at enim congue commodo. Mauris volutpat nisi sed magna molestie at dapibus metus aliquet. Sed ac lacus in risus consequat eleifend non egestas est. Maecenas ut tempor risus. Pellentesque ligula enim, rutrum quis scelerisque eu, varius quis metus. Proin vitae est nisl. Sed tincidunt turpis vel leo ornare sed semper lacus euismod. Nullam lectus odio, mollis id viverra eu, elementum in metus. Donec fringilla eros ligula, ac malesuada mauris. Ut congue dolor sit amet mauris euismod imperdiet. </p>
 
+        </div>
     </div>
     <div class="thirdcol">
         
