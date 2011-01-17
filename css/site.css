@@ -217,7 +217,7 @@ a:hover {
   margin-bottom: 10px;
   border: 1px solid #BDBDBD;
   position: relative;
-  background: none repeat scroll 0 0 #DCDDDF;
+  background: none repeat scroll 0 0 #595E66;
   
   border-radius:5px;
   -webkit-border-radius:5px;
@@ -227,12 +227,38 @@ a:hover {
   position: absolute;
   bottom: 10px;
   right: 10px;
-  width: 200px;
+  width: 300px;
 /*  color:#3EB0ED;*/
-	font-size: 1.5em;
+	font-size: 3em;
 	font-weight: bold;
 	text-align: right;
+
+	text-shadow: #000 0px 0px 5px;
+
 }
+#theme_splashes a {
+  color: #ffffff;
+  text-decoration: none;
+}
+#theme_splashes a:hover {
+  color: #ED5832;
+}
+#splash_content_creation {
+  background: url("/images/content_creation1_P.png") 0 0 #595E66;
+}
+
+#splash_graphics_systems {
+  background: url("/images/graphics_systems1_P.png") 0 0 #595E66;
+}
+
+#splash_perceiving_people {
+  background: url("/images/perceiving_people_P.png") 0 0 #595E66;
+}
+
+#splash_scalable_simulation {
+  background: url("/images/scalable_simulation2_P.png") 0 0 #595E66;
+}
+
 
 /* SIDENAV */
 #sidenav {
