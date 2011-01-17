@@ -70,7 +70,7 @@ a:hover {
 
 /* MASTHEAD, including NAME and TOP-LEVEL NAVIGATION */
 #header {
-  height: 28px;
+  height: 48px;
 }
 #header_links {
   float: right;
@@ -85,6 +85,7 @@ a:hover {
 }
 
 #masttitle {
+  font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;
 	float: left;width:950px; margin-right:0;
 	color:#3EB0ED;
 	font-size: 4em;
@@ -310,6 +311,10 @@ h1, h2, h3, h4, h5, h6 {font-weight:bold;color:#111;}
 .anchorheader a {
   color: inherit;
   text-decoration: inherit;
+}
+
+#intel_logo {
+  margin: 18px 70px 18px;
 }
 
 .project {
