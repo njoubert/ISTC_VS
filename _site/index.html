@@ -61,45 +61,76 @@ function toggleSignIn() {
     </div>
     <div id="titletext">
         <h3>The Visual Computing Center engages in open, collaborative, and exploratory research in visual computing.  We seek to bring modern trends in computing (the cloud, crowd sourcing, hand-held computing) to bear on hybrids of computer graphics, animation, image understanding, and large-scale gaming.</h3>
-        
     </div> 
 </div>
 <div id="main">
-  
-<div class="onetwocol" id="theme_splashes">
-    <div class="firstcol">
-        <a href="./themes.html#graphics_systems" title="Research focused on computer graphics systems.">
-            <div id="splash_graphics_systems" class="theme_splash">
-                <div class="theme_splash_text">
-                    GRAPHICS SYSTEMS
-                </div>
-            </div>        
-        </a>
-        <a href="./themes.html#perceiving_people" title="Research focused on perceiving people and places.">
-            <div id="splash_perceiving_people" class="theme_splash">
-                <div class="theme_splash_text">
-                    PERCEIVING PEOPLE AND PLACES
-                </div>
-            </div>
-        </a>
+  <!--[if lt IE 7]>
+  <div style='border: 1px solid #F7941D; background: #FEEFDA; text-align: center; clear: both; height: 75px; position: relative; margin-top: 17px;'>
+    <div style='position: absolute; right: 3px; top: 3px; font-family: courier new; font-weight: bold;'><a href='#' onclick='javascript:this.parentNode.parentNode.style.display="none"; return false;'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-cornerx.jpg' style='border: none;' alt='Close this notice'/></a></div>
+    <div style='width: 640px; margin: 0 auto; text-align: left; padding: 0; overflow: hidden; color: black;'>
+      <div style='width: 75px; float: left;'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-warning.jpg' alt='Warning!'/></div>
+      <div style='width: 275px; float: left; font-family: Arial, sans-serif;'>
+        <div style='font-size: 14px; font-weight: bold; margin-top: 12px;'>You are using an outdated browser</div>
+        <div style='font-size: 12px; margin-top: 6px; line-height: 12px;'>For a better experience using this site, please upgrade to a modern web browser.</div>
+      </div>
+      <div style='width: 75px; float: left;'><a href='http://www.firefox.com' target='_blank'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-firefox.jpg' style='border: none;' alt='Get Firefox 3.5'/></a></div>
+      <div style='width: 75px; float: left;'><a href='http://www.browserforthebetter.com/download.html' target='_blank'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-ie8.jpg' style='border: none;' alt='Get Internet Explorer 8'/></a></div>
+      <div style='width: 73px; float: left;'><a href='http://www.apple.com/safari/download/' target='_blank'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-safari.jpg' style='border: none;' alt='Get Safari 4'/></a></div>
+      <div style='float: left;'><a href='http://www.google.com/chrome' target='_blank'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-chrome.jpg' style='border: none;' alt='Get Google Chrome'/></a></div>
+    </div>
+  </div>
+    <![endif]-->
 
+  
+<div class="onetwocol">
+    <div class="firstcol">
+        <!-- SPLASH START -->
+        <div class="theme_splash_container">
+            <a href="./themes.html#graphics_systems" title="Research focused on computer graphics systems.">
+                <div id="splash_graphics_systems" class="theme_splash">
+                    <div class="theme_splash_text">
+                        GRAPHICS SYSTEMS
+                    </div>
+                </div>        
+            </a>
+        </div>
+        <!-- SPLASH END -->
+        <!-- SPLASH START -->
+        <div class="theme_splash_container">
+            <a href="./themes.html#perceiving_people" title="Research focused on perceiving people and places.">
+                <div id="splash_perceiving_people" class="theme_splash">
+                    <div class="theme_splash_text">
+                        PERCEIVING PEOPLE AND PLACES
+                    </div>
+                </div>
+            </a>
+        </div>
+        <!-- SPLASH END -->
     </div>
     
     <div class="secondcol">
-         <a href="./themes.html#content_creation" title="Research focused on content creation.">
-            <div id="splash_content_creation" class="theme_splash">
-                <div class="theme_splash_text">
-                    CONTENT CREATION
+        <!-- SPLASH START -->
+        <div class="theme_splash_container">        
+             <a href="./themes.html#content_creation" title="Research focused on content creation.">
+                <div id="splash_content_creation" class="theme_splash">
+                    <div class="theme_splash_text">
+                        CONTENT CREATION
+                    </div>
                 </div>
-            </div>
-        </a>
-       <a href="./themes.html#scalable_simulation" title="Research focused on scalable simulation of natural phenomenon.">        
-            <div id="splash_scalable_simulation" class="theme_splash">
-                <div class="theme_splash_text">
-                    SCALABLE REAL-TIME SIMULATION
+            </a>
+        </div>
+        <!-- SPLASH END -->
+        <!-- SPLASH START -->
+        <div class="theme_splash_container">        
+           <a href="./themes.html#scalable_simulation" title="Research focused on scalable simulation of natural phenomenon.">        
+                <div id="splash_scalable_simulation" class="theme_splash">
+                    <div class="theme_splash_text">
+                        SCALABLE REAL-TIME SIMULATION
+                    </div>
                 </div>
-            </div>
-        </a>
+            </a>
+        </div>
+        <!-- SPLASH END -->
     </div>
 </div>
     
@@ -114,7 +145,9 @@ The Visual Computing Center was launched on Jan 26th 2011. It is centered at Sta
     </div>
     <div id="footercontainer">
         <div id="footer">
-            This site runs on <a href="http://jaspervdj.be/hakyll/index.html">Hakyll</a> | <a href="mailto:njoubert@stanford.edu">Contact</a>
+            This site runs on <a href="http://jaspervdj.be/hakyll/index.html">Hakyll</a> | 
+
+© 2011 <a href="http://njoubert.com/">Niels Joubert</a>
         </div>
     </div>
 </div>    
