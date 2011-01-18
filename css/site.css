@@ -237,6 +237,11 @@ a:hover {
 }
 .theme_splash_container {
   color:#ffffff;
+  width: 348px;
+  height: 218px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  float: left;
 }
 .theme_splash_container a {
   color: inherit;
@@ -302,10 +307,27 @@ a:hover {
 #sidenav ul a {
   text-decoration: none;
 }
+
+
+/* THEMES PAGE */
+
+.theme_blurb {
+  width: 348px;
+  float: left;
+}
+#theme_content ul {
+  
+}
+#theme_content li {
+  
+}
 /* kruft */
 
 h1, h2, h3, h4, h5, h6 {font-weight:bold;color:#111;}
 
+h4 {
+  display: inline;
+}
 .anchorheader a {
   color: inherit;
   text-decoration: inherit;
