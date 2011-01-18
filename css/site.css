@@ -336,7 +336,7 @@ h4 {
 }
 
 #intel_logo {
-  margin: 18px 70px 18px;
+  margin: 18px 0px 18px;
 }
 #sponsors_blurb {
 	
@@ -344,15 +344,21 @@ h4 {
 }
 #sponsors_list {
 	float: left;
-	height: 216px;
-	padding-top: 10px;
+	height: 75px;
+	width: 710px;
+	margin-right: 10px;
+  padding: 10px 0px 10px;
+  border: 1px solid #BDBDBD;
+  
+  border-radius:5px;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
 }
 #sponsors_list img {
 	display: inline;
-	padding: 0 !important;
-	margin: 0 !important;
-	border: 0 !important;
 	float: left;
+	padding-left: 10px;
+	padding-right: 3px;
 }
 #sponsors_list a {
 	padding: 0 !important;
@@ -387,14 +393,26 @@ h4 {
 	background: #E9E9E9;
 }
 .bigclick {
-	background:#595E66;
-	color:#fff;
+  background:#F3F3F3;
+	color: #ED5832;
 	padding: 8px 12px 8px 12px;
-	margin-left: 210px;
-	font-weight: normal;
+	margin-top: 10px;
+	margin-left: 10px;
+	font-weight: bold;
 	font-size: 1.4em;
+  border: 1px solid #BDBDBD;
+  
+  border-radius:5px;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
 }
-
+#launchingbox {
+  float: right;
+  display: inline;
+  position: absolute;
+  top: 18px;
+  right: 50px;
+}
 .bright {
   color:#ED5832;
 }
