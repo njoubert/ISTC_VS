@@ -169,6 +169,8 @@ a:hover {
 }
 #titleimg {
   float: left; margin-right: 10px; width: 550px;
+  height:180px;
+  background: url('/images/protovis-banner.png') 0 0 no-repeat;
 }
 #pagetitle img {
   display: block;
