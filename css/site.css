@@ -314,7 +314,18 @@ h1, h2, h3, h4, h5, h6 {font-weight:bold;color:#111;}
 #intel_logo {
   margin: 18px 70px 18px;
 }
-
+#sponsors_list img {
+	display: inline;
+	padding: 0 !important;
+	margin: 0 !important;
+	border: 0 !important;
+	float: left;
+}
+#sponsors_list a {
+	padding: 0 !important;
+	margin: 0 !important;
+	border: 0 !important;
+}
 .project {
   padding-left: 18px;
 }
