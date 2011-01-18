@@ -100,7 +100,7 @@ a:hover {
 
 #mastsubtitle {
 	float: left; margin-right: 10px; width: 550px;
-	font-size: 14px;
+	font-size: 1.5em;
 	font-weight: bold;
   color: #000;
 }
@@ -336,7 +336,7 @@ h4 {
 }
 
 #intel_logo {
-  margin: 0px 0px 18px;
+  margin: 18px 45px 18px;
 }
 #sponsors_blurb {
 	
